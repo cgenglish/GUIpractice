@@ -5,10 +5,11 @@ public class MyJFrame extends JFrame {
         //dont need to call JFrame. whatever here because already 
         //within via inheritance and accessing it via extends and import
         super(title);
-        MyJPanel jPanel = new MyJPanel();
-        setContentPane(jPanel);
+        // MyJPanel jPanel = new MyJPanel();
+        // setContentPane(jPanel);
         setSize(550, 400); 
         setLocation(400, 200);
         setVisible(true);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
 }    
 }
