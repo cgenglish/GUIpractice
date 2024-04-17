@@ -2,14 +2,12 @@ import javax.swing.JFrame;
 
 public class MyJFrame extends JFrame {
     public MyJFrame(String title) {
-        //dont need to call JFrame. whatever here because already 
-        //within via inheritance and accessing it via extends and import
         super(title);
-        // MyJPanel jPanel = new MyJPanel();
-        // setContentPane(jPanel);
-        setSize(550, 400); 
-        setLocation(400, 200);
+        // MyJPanel panel = new MyJPanel();
+        // setContentPane(panel);
+        setSize(650, 450);
+        setLocation(1000, 350);
         setVisible(true);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-}    
+    }
 }
